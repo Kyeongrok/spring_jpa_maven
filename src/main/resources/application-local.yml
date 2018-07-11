@@ -1,0 +1,14 @@
+spring:
+  application.name: voting-server
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://<host>
+    username: app
+    password: <password>
+    max-wait: 1000
+    log-validation-errors: true
+    hikari.maximum-pool-size: 5
+  jpa:
+    generate-ddl: true
+    hibernate.ddl-auto: update # Hibernate ddl auto (create, create-drop, update, validate)
+    show-sql: true
