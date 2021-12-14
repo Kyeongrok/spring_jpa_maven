@@ -1,6 +1,7 @@
 # Spring Jpa Maven 예제
 
 <img src="https://img.shields.io/badge/spring--boot-jpa-brightgreen?logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/junit5-brightgreen?logo=junit5&logoColor=white"/>
 
 Spring Data Jpa로 Postgresql과 연동한 예제 입니다.
 
