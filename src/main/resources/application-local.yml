@@ -1,10 +1,10 @@
 spring:
   application.name: voting-server
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://<host>
-    username: app
-    password: <password>
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/spring_example
+    username: postgres
+    password: 123456
     max-wait: 1000
     log-validation-errors: true
     hikari.maximum-pool-size: 5
